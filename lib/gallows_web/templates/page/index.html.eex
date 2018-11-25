@@ -5,4 +5,7 @@
   <h4><%= plural_of("egg", 0) %></h4>
   <h5><%= plural_of("egg", -1) %></h5>
   <h6><%= plural_of("egg", -2) %></h6>
+  <div class="container">
+    <img src="<%= Routes.static_path(@conn, "/images/my_little_pony.png") %>" alt="My Little Ponny"/>
+  </div>
 </section>
