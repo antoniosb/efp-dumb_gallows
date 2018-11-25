@@ -1,10 +1,5 @@
 <section class="phx-hero">
-  <h1><%= plural_of("egg", 1) %></h1>
-  <h2><%= plural_of("egg", 2) %></h2>
-  <h3><%= plural_of("egg", 3) %></h3>
-  <h4><%= plural_of("egg", 0) %></h4>
-  <h5><%= plural_of("egg", -1) %></h5>
-  <h6><%= plural_of("egg", -2) %></h6>
+  <h1><%= plural_of(@product, @count) %></h1>
   <div class="container">
     <img src="<%= Routes.static_path(@conn, "/images/my_little_pony.png") %>" alt="My Little Ponny"/>
   </div>
